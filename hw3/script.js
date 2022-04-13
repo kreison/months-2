@@ -25,6 +25,7 @@ function twoMass(arr1, arr2) {
         maxArrLength = 0
     }
     else {
+        maxArr = arr2;
         maxArrLength = arr2.length
     }
     return [maxArr, maxArrLength];
