@@ -31,4 +31,10 @@ function twoMass(arr1, arr2) {
     return [maxArr, maxArrLength];
 }
 
-console.log(twoMass([1,2,3,4,5,], [1,2,3,4]))
+console.log(twoMass([1,2,3,4,5,], [1,2,3,4]));
+
+function countChar(t1) {
+    return t1.length;
+}
+
+console.log(countChar("12345678"))
