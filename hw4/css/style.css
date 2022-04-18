@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  font: 2rem sans-serif;
+}
+.wrapper .buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapper .buttons button {
+  text-align: center;
+  padding: 8px 50px 8px 50px;
+  border: 0;
+  cursor: pointer;
+  background: #9da9d9;
+}
+.wrapper .clear {
+  text-align: center;
+  padding: 8px 50px 8px 50px;
+  border: 0;
+  cursor: pointer;
+  background: #9da9d9;
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
