@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #53666e;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .form {
+  width: 500px;
+  border: 2px solid #fff;
+}
+body .container .form .header {
+  display: flex;
+  justify-content: space-between;
+}
+body .container .form .header input {
+  flex: 1 1;
+  height: 30px;
+  font-size: 18px;
+}
+body .container .todoBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .todoBlock .actions button {
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.todoBlock p {
+  color: white;
+  font-size: 18px;
+}
+
+.change {
+  background: darkgoldenrod;
+  color: #ffffff;
+}
+
+.deleteButton {
+  color: #ffffff;
+  background: darkred;
+}
+
+/*# sourceMappingURL=style.css.map */
